@@ -1,0 +1,140 @@
+h1{
+	color: black;
+	font-family: 'Roboto', serif;
+}
+
+body{
+	background-color: ghostwhite;
+}
+.btn-blue {
+	text-decoration: none;
+	background-color: #495371;
+	color: white;
+	padding: 12px;
+	border-radius: 6px;
+}
+.btn-blue:hover {
+	background-color: #F1E0AC;
+	transition: 0.5s;
+}
+
+p {
+	text-justify: center;
+}
+
+img{
+	width: 132px;
+	height: 132px;
+	border-radius: 50%;
+}
+
+.container {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.card-white {
+	background: white;
+	padding: 24px;
+	border-radius: 6px;
+	text-align: center;
+	box-shadow: 0 12px 30px rgba(30, 30, 30, 0.2);
+	margin-bottom: 24px;
+}
+
+ul{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.logo-socialmedia{
+	font-size: 32px;
+	color: #495371;
+	margin: 0 4px;
+}
+
+.logo-socialmedia:hover {
+	background-color: white;
+	transition: 0.5s;
+}
+
+li{
+	display: inline;
+}
+
+#card-ville {
+	background-image: url(images/Marseille.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+#card-ville h1{
+	color: white;
+}
+
+#card-ville p{
+	color: white;
+}
+
+#card-colmar {
+	background-image: url(images/colmar.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+#card-colmar h1{
+	color: white;
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 560px
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 320px
+	}
+}
+
+
+/*SECTION EXP ET FORMATION*/
+
+.exp img{
+	width: 132px;
+	height: 132px;
+	border-radius: 50%;
+}
+
+.exp h3{
+    font-size:  1.2em;
+}
+.exp h4{
+    font-size:  1em;
+    font-weight: normal;
+}
+
+
+.card-hobbies {
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0px 0px 30px rgb(0 0 0 / 30%);
+  margin: 24px;
+  padding: 40px 112px;
+  flex-grow: 1;
+  font-size: 28px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+
+
+
